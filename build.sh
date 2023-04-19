@@ -3,11 +3,10 @@
 echo Building Tensorflow-Template...
 sudo apt install python3 python3-pip git
 
-sudo git clone https://github.com/ArtificialOSS/TensorflowTemplate.git
+sudo git clone https://github.com/ArtificialOSS/TextGenTensorflow.git
 sudo pip install --upgrade pip
 sudo pip install tensorflow
+sudo pip install nltk
 
-echo Training the bot
-python3 train.py
-python3 model.py
+python3 setup.py
 echo Finished
